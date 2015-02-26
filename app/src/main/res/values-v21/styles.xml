@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+
+        <item name="android:navigationBarColor">#0285f0</item>
+    </style>
+
+</resources>

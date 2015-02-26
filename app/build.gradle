@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.egrcc.search"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 10
+        versionName "2.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.jpardogo.materialtabstrip:library:1.0.9'
+    compile 'com.github.navasmdc:MaterialDesign:1.+@aar'
+    compile 'com.loopj.android:android-async-http:1.4.5'
+    compile 'com.afollestad:material-dialogs:0.6.3.1'
+}

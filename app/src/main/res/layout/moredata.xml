@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/loadmoreButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="6dp"
+            android:padding="16dp"
+            android:background="@drawable/button_background"
+            android:text="加载更多数据"
+            android:textColor="#ffffff" />
+    >
+    <!--<com.gc.materialdesign.views.ButtonRectangle-->
+    <!--android:id="@+id/loadmoreButton"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="6dp"-->
+    <!--android:layout_marginRight="6dp"-->
+    <!--android:layout_marginBottom="12dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:background="#0285f0"-->
+    <!--android:text="加载更多数据"-->
+    <!--android:textColor="#ffffff" />-->
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/loadProgressBar"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:visibility="gone" />  -->
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:id="@+id/loadProgressBar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="13dp"
+        android:background="#1E88E5"
+        android:visibility="gone" />
+
+
+</LinearLayout>

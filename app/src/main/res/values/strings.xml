@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">寻觅</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="about">关于</string>
+    <string name="donate">打赏作者</string>
+    <string name="share">分享</string>
+    <string name="setting">设置</string>
+    <string-array name="planets_array">
+        <item>主页</item>
+        <item>我的下载</item>
+        <item>打赏作者</item>
+        <item>设置</item>
+    </string-array>
+    <string-array name="downloaders">
+        <item>内置下载器</item>
+        <item>系统浏览器</item>
+    </string-array>
+
+    <string name="notify_priority">notify_priority</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="acknowledgement1">首先我要对谷粉的开发者CJY，CJX表示由衷的感谢，他们无偿地授权我使用他们的搜索引擎,以及对本应用所使用的所有开源库的作者表示感谢。</string>
+    <string name="acknowledgement2">其次，我要对试用本应用的网友表示感谢。是你们帮助我在多机型上测试，让我看到的应用的不足。也是你们给我提供了反馈意见，让我看到了我在设计上的缺陷。</string>
+    <string name="acknowledgement3">最后，我要感谢Google，提供了世界上最优秀的搜索引擎，让我们可以方便的检索资源。</string>
+
+    <string name="duty1">「寻觅」只提供资源检索服务，并不存储任何资源内容，如有侵权内容，请联系网盘商进行删除。</string>
+    <string name="duty2">经由程序搜索所产生的任何结果皆不代表本人立场，本人不对其真实合法性以及版权负责，亦不承担任何法律责任。</string>
+
+    <string name="about1">欢迎使用「寻觅」Android客户端，「寻觅」是一款提供搜索资源的app，目前可以搜索百度网盘，微盘，以及华为网盘。你可以点击ActionBar上的搜索按钮或屏幕中间的搜索框进行搜索。</string>
+    <string name="about2">做该应用纯粹是本人兴趣使然，开发该应用的初衷只是为了能够在移动端上便捷快速的搜索到自己想要的资源。</string>
+    <string name="about3">「寻觅」并不是一款搜索引擎，所有搜索结果均来源于第三方搜索引擎。</string>
+    <string name="about4">其中百度网盘和华为网盘的搜索结果由谷粉搜搜提供，本程序已获得谷粉开发者的授权，也希望大家多多支持他们的网站。</string>
+    <string name="about5">对于那些不会fq又想使用Google的朋友，我强烈向你推荐谷粉搜搜。在网页端上，你可以通过关键词+“site:pan.baidu.com”用谷粉来搜索百度云资源。</string>
+    <string name="about6">微盘的搜索结果由微盘官网的搜索引擎提供。</string>>
+    <string name="about7">本程序并不打算用作商业开发，所以并没有加任何广告，希望能给你带来良好的使用体验。</string>
+    <string name="xunmi_license">
+    Copyright 2015 egrcc \n
+    \nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n
+    \nhttp://www.apache.org/licenses/LICENSE-2.0\n
+    \nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+
+
+</resources>

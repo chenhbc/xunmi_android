@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    android:layout="@layout/preference_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/title_activity_setting">
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="下载设置">
+
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="下载工具"
+            android:key="downloader"
+            android:summary="默认使用内置下载器"
+            />
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="下载目录"
+            android:key="downloadFolder"
+            android:summary="默认为sd卡下的/xunmi/download"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="帮助">
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="检查更新"
+            android:key="update"
+            android:summary="检查是否有新版本">
+
+        </Preference>
+
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="意见反馈"
+
+            android:summary="给我发送意见和建议">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:zhaolujun1994@gmail.com"/>
+        </Preference>
+
+
+
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="关于"
+            android:summary="2.0.0">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.egrcc.search"
+                android:targetClass="com.egrcc.search.AboutActivity"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="一些说明">
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="感谢">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.egrcc.search"
+                android:targetClass="com.egrcc.search.AcknowledgementActivity"/>
+        </Preference>
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="使用须知">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.egrcc.search"
+                android:targetClass="com.egrcc.search.DutyActivity"/>
+        </Preference>
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="打赏作者">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.egrcc.search"
+                android:targetClass="com.egrcc.search.DonateActivity"/>
+        </Preference>
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="开源许可"
+            android:summary="开放源代码软件的许可详情">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.egrcc.search"
+                android:targetClass="com.egrcc.search.OpenSourceActivity"/>
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

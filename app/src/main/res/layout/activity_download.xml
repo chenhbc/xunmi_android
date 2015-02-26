@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <!--<it.neokree.materialtabs.MaterialTabHost-->
+    <!--android:id="@+id/tabHost"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_below="@+id/toolbar"-->
+    <!--app:primaryColor="#0285f0"-->
+    <!--app:accentColor="#ffffff" />-->
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/downloadTabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/toolbar"
+        app:pstsShouldExpand="true"
+        android:background="?attr/colorPrimary" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/downloadPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/downloadTabs" />
+
+</RelativeLayout>
